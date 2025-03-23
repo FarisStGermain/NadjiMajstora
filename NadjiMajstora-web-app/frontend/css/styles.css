@@ -1,0 +1,109 @@
+/* General Styles */
+body {
+  font-family: 'Roboto', sans-serif;
+  background-color: #120707d8;
+  margin: 0;
+  padding: 0;
+  color: #e0e0e0;
+}
+
+.container {
+  max-width: 1200px;
+  margin: auto;
+  padding: 20px;
+}
+
+/* Navbar Styles */
+.navbar {
+  background-color: #1f1f1f;
+  padding: 10px;
+}
+
+.navbar-brand {
+  color: #ff1900;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.nav-link {
+  color: #fe0000;
+  margin-left: 10px;
+}
+
+.nav-link:hover {
+  color: #bb86fc;
+}
+
+/* Button Styles */
+.btn-primary {
+  background-color: #bb86fc;
+  border-color: #bb86fc;
+  transition: background-color 0.3s, border-color 0.3s;
+}
+
+.btn-primary:hover {
+  background-color: #3700b3;
+  border-color: #3700b3;
+}
+
+/* Form Styles */
+.form-group {
+  margin-bottom: 15px;
+}
+
+.form-control {
+  background-color: #1f1f1f;
+  border: 1px solid #bb86fc;
+  border-radius: 4px;
+  padding: 10px;
+  color: #e0e0e0;
+}
+
+.form-control::placeholder {
+  color: #9e9e9e;
+}
+
+/* Card Styles */
+.card {
+  background-color: #1f1f1f;
+  border: none;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+  margin-bottom: 20px;
+}
+
+.card-header {
+  background-color: #3700b3;
+  color: #f10b0b;
+  padding: 10px;
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
+}
+
+.card-body {
+  padding: 20px;
+}
+
+/* Footer Styles */
+.footer {
+  background-color: #1f1f1f;
+  color: #e0e0e0;
+  text-align: center;
+  padding: 10px;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
+
+/* Utility Classes */
+.text-center {
+  text-align: center;
+}
+
+.mt-20 {
+  margin-top: 20px;
+}
+
+.mb-20 {
+  margin-bottom: 20px;
+}

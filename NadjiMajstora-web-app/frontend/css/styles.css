@@ -26,24 +26,26 @@ body {
 }
 
 .nav-link {
-  color: #fe0000;
+  color: #0b7d9d;
   margin-left: 10px;
 }
 
 .nav-link:hover {
-  color: #bb86fc;
+  color: #fe0000;
 }
 
 /* Button Styles */
 .btn-primary {
-  background-color: #bb86fc;
-  border-color: #bb86fc;
+  background-color: #0098fe;
+  border-color: #000000;
   transition: background-color 0.3s, border-color 0.3s;
 }
 
 .btn-primary:hover {
   background-color: #3700b3;
   border-color: #3700b3;
+  border-radius: 100%;
+  border-style: groove;
 }
 
 /* Form Styles */
@@ -53,7 +55,7 @@ body {
 
 .form-control {
   background-color: #1f1f1f;
-  border: 1px solid #bb86fc;
+  border: 1px solid #0098fe;
   border-radius: 4px;
   padding: 10px;
   color: #e0e0e0;
@@ -74,7 +76,7 @@ body {
 
 .card-header {
   background-color: #3700b3;
-  color: #f10b0b;
+  color: #0098fe;
   padding: 10px;
   border-top-left-radius: 8px;
   border-top-right-radius: 8px;
